@@ -8,13 +8,13 @@ def encode(input):
     return output
 
 def decode(input):
-    decoded_password = ""
+    password = ""
     for char in input:
         decoded_char = int(char) - 3
         if decoded_char < 0:
             decoded_char += 10
-        decoded_password += str(decoded_char)
-    return decoded_password
+        password += str(decoded_char)
+    return password
 
 def main():
     while True:
