@@ -1,3 +1,5 @@
+# Daniel Permane
+
 def encode(input):
     output = ""
     for i in input:
