@@ -27,6 +27,8 @@ def main():
             print("Your password has been encoded and stored!")
         elif option == 2:
             print(f"The encoded password is {decode(encoded_password)}, and the original password is {encoded_password}.")
+        elif option == 3:
+            break
 
 
 if __name__ == "__main__":
