@@ -12,7 +12,7 @@ def decode(input):
 
 def main():
     while True:
-        encoded_password = "";
+        encoded_password = ""
 
         print("Menu")
         print("-------------")
